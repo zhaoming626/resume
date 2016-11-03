@@ -15,34 +15,34 @@
 
 % {E-mail}{mobilephone}{homepage}
 % be careful of _ in emaill address
-\contactInfo{zhaoming626@yeah.net}{(+86) 135-6237-6948}{http://mingzhao.me}
+\contactInfo{zhaoming626@yeah.net}{(+86) 150-6237-6948}{http://mingzhao.me}
 % {E-mail}{mobilephone}
 % keep the last empty braces!
 %\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
  
 \section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{中国科学技术大学}, 合肥, 安徽}{2014，9 -- 至今}
+\datedsubsection{\textbf{中国科学技术大学}, 合肥, 安徽}{2014,9 -- 至今}
 \textit{在读硕士研究生}\ 软件工程, 预计 2017 年 7 月毕业
-\datedsubsection{\textbf{北京邮电大学}, 北京}{2010，9 -- 2014，7}
+\datedsubsection{\textbf{北京邮电大学}, 北京}{2010,9 -- 2014,7}
 \textit{学士}\ 通信工程
 
 \section{\faUsers\ 项目经历}
 \datedsubsection{\textbf{EnviroCar项目} 苏州}{2016年2月 -- 2016年5月}
-\role{开源项目}{经理: Envirocar开源社区}
+\role{开源项目}{类别: Envirocar开源社区}
 Envirocar项目专注于采集有关汽车发动机的数据，对这些数据进行处理，使用户可以更加绿色的出行
 \begin{itemize}
-  \item 现有的用户管理界面是PHP写的，使用javascript进行重写。使用leaflet.js angular.js和open street的数据构建用户数据的展示前端，后端数据处理部分用R进行处理。前后端使用opencpu连接起来
-  \item 利用PHP写对于Monogo DB数据库的质量检测机制
-  \item 使用一个叫Jena的语义网框架有效沟通收集到的数据和外部数据，使得数据更有意义
+  \item 现有的用户管理界面是PHP写的，使用javascript进行重写。使用leaflet.js, angular.js和open street的数据构建用户数据的展示前端，后端的数据处理部分用R进行处理。前后端使用opencpu开源项目有效的连接起来
+  \item 利用PHP对应的Driver写对于Mongo DB数据库的质量检测机制
+  \item 使用一个叫Jena的语义网框架有效整合收集到的数据和外部数据，使得数据更有意义
 \end{itemize}
 
 \datedsubsection{\textbf{GreenGPS 项目}}{2014年9月 -- 2015年7月}
 \begin{onehalfspacing}
 通过OBD2端口，收集汽车发动机有关的参数
 \begin{itemize}
-  \item 使用OBD Dongle通过OBD2端口采集汽车发动机的有关参数，使用蓝牙串口发送相关信息到智能手机上。设计有图形化界面的智能手机端的APP，方便用户使用
-  \item 检测到智能手机连接电的时候，通过TCP把数据传输到服务器端，服务器端通过字符串解析获得数据，把数据插到MySQL数据库里面。服务器端程序采用JAVA编写
-  \item 使用Django搭建了管理数据的界面，可以用来管理用户生成的轨迹。每隔十分钟对新的轨迹数据进行数学处理，保证数据的质量。
+  \item 使用OBD Dongle通过OBD2端口采集汽车发动机的有关参数，使用蓝牙串口发送相关信息到智能手机上。设计与实现智能手机端的APP的图形化界面，方便用户使用
+  \item 检测到智能手机连接电源的时候，通过TCP把数据传输到服务器端，服务器端通过字符串解析获得数据，把数据插入到MySQL数据库里面。服务器端程序采用JAVA编写
+  \item 使用Django搭建了管理数据库数据的图形化界面，用该图形化界面来管理用户生成的轨迹。每隔十分钟对新的轨迹数据进行简单的统计处理，提高数据的质量。
 \end{itemize}
 \end{onehalfspacing}
 
@@ -51,10 +51,10 @@ Envirocar项目专注于采集有关汽车发动机的数据，对这些数据�
 \role{实习}{经理: 赵晓飞}
 设计移动客户端和对应的后端去卖大数据分析设计出的金融产品。
 \begin{itemize}
-  \item 负责分发IOS版客户端的内测和外测，以及IOS版的客服端的上线
-  \item 负责Android版的客服端的上线
+  \item 负责分发IOS版客户端的内测和外测，以及IOS版的客户端的上线
+  \item 负责Android版的客户端的上线
   \item 对同事写的代码进行审查，确保代码质量
-  \item 负责在后端接入中金支付的接口，与中金支付的有关人员沟通相关的问题
+  \item 负责在后端接入中金支付的接口，与中金支付的有关人员沟通绑卡、支付、打款，清算等有关问题
   \item 负责接入短信发送接口，用短信通知用户重要的信息
   \item 使用JQuery, Ionic, Angular, Cordova编写前端，使用Laravel编写后端
 \end{itemize}
